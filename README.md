@@ -8,6 +8,11 @@ incognitas, siempre se saben por este motivo no encontre necesario crear la tabl
 las comunas existentes a la base de datos por lo que puede haber un error entre si la comuna realmente pertenece a esa region, pido disculpas por esto.
 Tambien use sweet alert para manejar de una forma mas bonita las alertas y queria usar el modelo de desarrollo MVC pero como era un proyecto pequeño y no sabia si quien lo revisaria es alguien que sabe o no, decidi no usar este modelo de desarrollo para simplificar su lectura y exploracion de archivos.
 
+En caso de necesitar que los votos sean incognitos y el nombre de la region no su numero dejo su consulta correspondiente.
+#CONSULTA PARA VER VOTOS 'INCOGNITOS' CON NOMBRE DE REGION
+SELECT re.nombre_region, vo.candidato, vo.comuna, vo.opciones FROM  region re, votos vo
+WHERE re.id_region = vo.region
+
 Use MySql mas espeficicamente con PhpMyadmin que presenta el software XAMPP v3.3.0
 la version de PHP que ocupe para desarrollar es PHP 8.1.6
 
