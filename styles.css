@@ -1,0 +1,60 @@
+/* Seccion de unos estilos basicos que en su mayoria consta depaddings y margins para dejar el formulario lo mas 
+parecido a lo presentado, no cuenta con responsividad ya que no era*/ 
+#formulario{
+    border-color: gray ;
+    border-width: 1px 0px 0px 1px  ;
+    border-style: solid ;
+    margin-left: 20px;
+    margin-top: 50px;
+    margin-right: 40%;
+}
+
+ul {
+    list-style: none;
+}
+
+
+
+
+#nombre_apellido{
+    margin-left: 200px;
+    padding-left: 10%;
+}
+
+#alias{
+    margin-left: 300px;
+    padding-left: 10%;
+}
+
+
+#rut{
+    margin-left: 304px;
+    padding-left: 10%;
+}
+
+#correo{
+    margin-left: 295px;
+    padding-left: 10%;
+}
+
+select{
+    padding-left: 13.5%; 
+}
+
+#region{
+    margin-left: 282px;
+}
+
+#candidato{
+    margin-left: 253px;
+    padding-left: 120px;
+}
+
+
+.check{
+    margin-left: 5px;
+}
+
+#web{
+    margin-left: 130px;
+}
