@@ -30,8 +30,8 @@ REQUERIMIENTOS:
 
 1.- Clonar repositorio
 - Estar en https://github.com/Hachigud/PruebaDesis, en la rama main 
-- Presionaremos el boton "code" seleccionaremos la op cion "https" y copiaremos el link
-- Luego nos redirigiremos a la carpeta donde queramos clonar el repositorio en mi casi como trabajo con xampp seria C:\xampp\htdocs 
+- Presionaremos el boton "code" seleccionaremos la opcion "https" y copiaremos el link
+- Luego nos redirigiremos a la carpeta donde queramos clonar el repositorio en mi caso como trabajo con xampp seria C:\xampp\htdocs 
 - Crearemos la carpeta donde se clonara el repositorio
 - Dentro de la carpeta abriremos GITBASH
 - Escribiremos git clone y el link que acabamos de copiar (git clone https://github.com/Hachigud/PruebaDesis.git) y presionaremos enter
@@ -42,14 +42,14 @@ REQUERIMIENTOS:
 - veremos todos los archivos correspondientes al desarrollo y una carpeta llamada DB entraremos en ella
 - Dentro veremos un archivo SQL
 - Procederemos a abrir nuestra base de datos
-- Crearemos una nueva base de datos y de preferencia la llamaremos desis, en caso de querer llamarla de otra forma nos dirigiremos al claseConexion.php y cambiaremos los datos por los que nosotros deseemos
-- Una vez creada nuestra base de datos, selecionaremos esta y arrastraremos el archivo db.sql adentro de nuestra base de datos y actualizaremos nuestra base de datos, en caso de no querer hacerlo de esta forma abriremos el archivo db.sql con bloc de notas o el editor de texto de preferencia, copiaremos el texto que este tiene, y en la seccion de consultas SQL lo pegaremos y ejecutaremos.
+- Crearemos una nueva base de datos y de preferencia la llamaremos desis, en caso de querer llamarla de otra forma nos dirigiremos al archivo claseConexion.php y cambiaremos los datos por los que nosotros deseemos
+- Una vez creada nuestra base de datos, selecionaremos esta y arrastraremos el archivo db.sql adentro de nuestra base de datos y actualizaremos nuestra base de datos, en caso de no querer hacerlo de esta forma abriremos el archivo db.sql con bloc de notas o el editor de texto de preferencia, copiaremos el texto que este tiene, y en la seccion de consultas de SQL lo pegaremos y ejecutaremos.
 - Listo nuestra base de datos esta creada :D.
 
 3.- usar software
 - Primero tendremos que iniciar nuestro servidor apache y con la base de datos conectada
 - En mi caso como lo estoy haciendo de forma local y con xammp, me dirijo a la ruta http://localhost/desis/pruebadesis/  , en el caso de cada uno seria  http://localhost/"nombreCarpetaCreada"/pruebadesis/, y esta listo para usar.
-- En caso de haber hecho el deploy en un servidor debera seguir ip del servidor con la ruta en el que haya clonado el repositorio, al igual que en el caso de tener una base de datos en un servidor estos datos se cambian en claseConexion.php , solo debe seguir los comentarios
+- En caso de haber hecho el deploy en un servidor debera seguir la ip del servidor con la ruta en el que haya clonado el repositorio, al igual que en el caso de tener una base de datos en un servidor estos datos se deben cambian en claseConexion.php , solo debe seguir los comentarios
 
 
 
